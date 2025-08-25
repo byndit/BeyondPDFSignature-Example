@@ -1,0 +1,36 @@
+{
+  "id": "92e2f306-78cd-47d6-ad6a-371870a24a11",
+  "name": "BeyondPDFSignature for Shipment Notes",
+  "publisher": "BEYONDIT GmbH",
+  "version": "2025.8.0.0",
+  "brief": "Manage your invoices with BeyondSignature in Business Central.",
+  "description": "Visit https://www.beyondit.gmbh/",
+  "url": "https://beyond365.de",
+  "supportedLocales": [
+    "de-DE",
+    "en-US"
+  ],
+  "propagateDependencies": true,
+  "dependencies": [
+    {
+      "id": "a2c0b38e-ee2e-4d28-b499-1b763776384b",
+      "name": "Beyond PDF Signature",
+      "publisher": "BEYONDIT GmbH",
+      "version": "2025.0.0.0"
+    }
+  ],
+  "application": "26.0.0.0",
+  "platform": "26.0.0.0",
+  "idRanges": [
+    {
+      "from": 50251,
+      "to": 50260
+    }
+  ],
+  "runtime": "15.0",
+  "features": [
+    "TranslationFile",
+    "NoImplicitWith"
+  ],
+  "target": "Cloud"
+}
